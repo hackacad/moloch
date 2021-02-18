@@ -205,7 +205,7 @@ done
 
 if [ "$MOLOCH_INET" != "no" ]; then
     echo "Moloch - Downloading GEO files"
-    $MOLOCH_INSTALL_DIR/bin/moloch_update_geo.sh > /dev/null
+    $MOLOCH_INSTALL_DIR/bin/arkime_update_geo.sh > /dev/null
 else
     echo "Moloch - NOT downloading GEO files"
 fi
